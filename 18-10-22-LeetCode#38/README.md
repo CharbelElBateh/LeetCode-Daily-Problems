@@ -1,3 +1,6 @@
+38.Count And Say
+===
+
 The __count-and-say__ sequence is a sequence of digit strings defined by the recursive formula:
 
 + `countAndSay(1) = "1"`
