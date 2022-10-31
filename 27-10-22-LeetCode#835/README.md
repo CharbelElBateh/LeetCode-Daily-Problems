@@ -13,13 +13,17 @@ Example 1:
 
 ![overlap1](https://user-images.githubusercontent.com/99130418/198827844-70ef49e7-1e83-410a-84f6-ed52d2851c93.jpg)
 
-`Input: img1 = [[1,1,0],[0,1,0],[0,1,0]], img2 = [[0,0,0],[0,1,1],[0,0,1]]
+```
+Input: img1 = [[1,1,0],[0,1,0],[0,1,0]], img2 = [[0,0,0],[0,1,1],[0,0,1]]
 Output: 3
-Explanation: We translate img1 to right by 1 unit and down by 1 unit.`
+Explanation: We translate img1 to right by 1 unit and down by 1 unit.
+```
 
 ![overlap_step1](https://user-images.githubusercontent.com/99130418/198827827-d195aea5-f314-459d-a9ff-67e2d0ccb64f.jpg)
 
-`The number of positions that have a 1 in both images is 3 (shown in red).`
+```
+The number of positions that have a 1 in both images is 3 (shown in red).
+```
 
 ![overlap_step2](https://user-images.githubusercontent.com/99130418/198827821-168d9925-be8b-4857-8c8b-fb1986ef91c7.jpg)
 
