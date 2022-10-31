@@ -11,23 +11,25 @@ __Example 1:__
 
 ![ex1](https://user-images.githubusercontent.com/99130418/199110031-68e46416-4bb5-4c13-9eca-b0217edebd91.jpg)
 
-`Input: matrix = [[1,2,3,4],[5,1,2,3],[9,5,1,2]]
+```
+Input: matrix = [[1,2,3,4],[5,1,2,3],[9,5,1,2]]
 Output: true
 Explanation:
 In the above grid, the diagonals are:
 "[9]", "[5, 5]", "[1, 1, 1]", "[2, 2, 2]", "[3, 3]", "[4]".
-In each diagonal all elements are the same, so the answer is True.`
+In each diagonal all elements are the same, so the answer is True.
+```
 
 __Example 2:__
 
 ![ex2](https://user-images.githubusercontent.com/99130418/199110105-4383ded1-11f0-4e7c-8064-9253fe616c3f.jpg)
 
-`
+```
 Input: matrix = [[1,2],[2,2]]
 Output: false
 Explanation:
 The diagonal "[1, 2]" has different elements.
-`
+```
 
 __Constraints:__
 
