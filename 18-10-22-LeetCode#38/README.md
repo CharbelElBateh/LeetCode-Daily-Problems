@@ -20,7 +20,9 @@ Input: n = 1
 Output: "1"
 Explanation: This is the base case.
 ```
+
 __Example 2:__
+
 ```
 Input: n = 4
 
