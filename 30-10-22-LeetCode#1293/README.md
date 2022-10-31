@@ -9,19 +9,23 @@ __Example 1:__
 
 ![short1-grid](https://user-images.githubusercontent.com/99130418/199107313-ef9fcd93-fc4c-4f6c-9c29-5af30ba232bc.jpg)
 
-`Input: grid = [[0,0,0],[1,1,0],[0,0,0],[0,1,1],[0,0,0]], k = 1
+```
+Input: grid = [[0,0,0],[1,1,0],[0,0,0],[0,1,1],[0,0,0]], k = 1
 Output: 6
 Explanation:
 The shortest path without eliminating any obstacle is 10.
-The shortest path with one obstacle elimination at position (3,2) is 6. Such path is (0,0) -> (0,1) -> (0,2) -> (1,2) -> (2,2) -> (3,2) -> (4,2).`
+The shortest path with one obstacle elimination at position (3,2) is 6. Such path is (0,0) -> (0,1) -> (0,2) -> (1,2) -> (2,2) -> (3,2) -> (4,2).
+```
 
 __Example 2:__
 
 ![short2-grid](https://user-images.githubusercontent.com/99130418/199107414-da22df7a-c400-4ce4-b4ef-555a79c154c2.jpg)
 
-`Input: grid = [[0,1,1],[1,1,1],[1,0,0]], k = 1
+```
+Input: grid = [[0,1,1],[1,1,1],[1,0,0]], k = 1
 Output: -1
-Explanation: We need to eliminate at least two obstacles to find such a walk.`
+Explanation: We need to eliminate at least two obstacles to find such a walk.
+```
 
 __Constraints:__
 
